@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.li{
+  list-style: none;
+}
+.list{
+  padding-top: 20px;
+  width:500px;
+  height: 100px;
+  
+  margin:auto
+}
+.todoContainer{
+   border-radius: 50px;
+   width: auto;
+   height: 50px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #61dafb;
+
+}
+.complete{
+   text-decoration: line-through;
+}
+.incomplete{
+  text-decoration: none;
+}
